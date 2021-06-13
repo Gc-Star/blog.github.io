@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo博客搭建, 常青~励む">
+    <meta name="keywords" content="人类简史, 常青~励む">
     <meta name="description" content="乐分享，乐学习，乐成长">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo博客搭建 | 常青~励む</title>
+    <title>人类简史 | 常青~励む</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo博客搭建</h1>
+                    <h1 class="description center-align post-title">人类简史</h1>
                 </div>
             </div>
         </div>
@@ -431,8 +431,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                <span class="chip bg-color">博客</span>
+                            <a href="/tags/%E5%8E%86%E5%8F%B2/">
+                                <span class="chip bg-color">历史</span>
                             </a>
                         
                     </div>
@@ -443,8 +443,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                技术
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6/" class="post-category">
+                                读书
                             </a>
                         
                     </div>
@@ -456,7 +456,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-12-01
+                    2021-02-01
                 </div>
                 
 
@@ -472,57 +472,18 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="1-博客搭建步骤"><a href="#1-博客搭建步骤" class="headerlink" title="1 博客搭建步骤"></a>1 博客搭建步骤</h1><h2 id="1-1-安装Node-js"><a href="#1-1-安装Node-js" class="headerlink" title="1.1 安装Node.js"></a>1.1 安装Node.js</h2><p><a target="_blank" rel="noopener" href="https://nodejs.org/en/">下载链接</a></p>
-<p>查看版本</p>
-<ul>
-<li>node -v 查看node版本</li>
-<li>npm -v 查看npm版本</li>
-</ul>
-<h2 id="1-2-安装Git"><a href="#1-2-安装Git" class="headerlink" title="1.2 安装Git"></a>1.2 安装Git</h2><p>安装Git，配置环境变量</p>
-<p>设置ssh Key</p>
-<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/fee5baf756c8">https://www.jianshu.com/p/fee5baf756c8</a></p>
-<h2 id="1-3-安装Hexo博客框架"><a href="#1-3-安装Hexo博客框架" class="headerlink" title="1.3 安装Hexo博客框架"></a>1.3 安装Hexo博客框架</h2><p>借助npm包管理器来安装cnpm, cnpm是淘宝团队做的国内镜像，因为npm的服务器在国外，所以可能会影响安装</p>
-<p><strong>1 安装cnpm</strong></p>
-<p>npm install -g cnpm regsistry=<a target="_blank" rel="noopener" href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a></p>
-<p>查看cnpm版本 cnpm -v</p>
-<p><strong>2 用cnpm 安装hexo博客框架</strong></p>
-<p>cnpm install -g hexo-cli</p>
-<p>查看hexo博客框架 hexo -v</p>
-<p><strong>3 初始化一个博客</strong></p>
-<p>1 查看当前工作路径 </p>
-<ul>
-<li>mac: pwd</li>
-<li>Windows: cd</li>
-</ul>
-<p>2 新建一个文件夹</p>
-<p>mkdir blog</p>
-<p>在当前目录下新建一个文件夹，所有博客的东西都在blog这个目录里面，如果出现无法解决的错误，只需要把这个文件夹删掉重来就可以了</p>
-<p>3 进入blog目录</p>
-<p>cd blog/</p>
-<p>4 使用hexo初始化一个博客</p>
-<p>hexo init</p>
-<p>5 查看blog目录里生成的基础的框架内容</p>
-<p>dir</p>
-<p>6 启动博客</p>
-<p>hexo s</p>
-<p>7 浏览器访问</p>
-<p><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a></p>
-<p>在本地4000端口进行访问</p>
-<h2 id="1-4-部署到github"><a href="#1-4-部署到github" class="headerlink" title="1.4 部署到github"></a>1.4 部署到github</h2><p><strong>1 登录GitHub，新建一个仓库</strong></p>
-<p> 仓库命名必须符合规定，即“昵称+.github.io”</p>
-<p><strong>2 安装git插件</strong></p>
-<p>blog目录下装一个git部署的插件</p>
-<p>cnpm install –save hexo-developyer-git</p>
-<p><strong>3 修改配置文件</strong></p>
-<p> dir 显示当前目录下的所有文件</p>
-<p>修改deploy下的参数，其中repo为github新建仓库的链接</p>
-<p><strong>4 部署到远端</strong></p>
-<p>hexo d</p>
-<p>5 <strong>刷新github仓库</strong></p>
-<p>此时就会看到博客生成的内容</p>
-<p><strong>6 访问博客</strong></p>
-<p>输入仓库名，此时便可以访问你的博客</p>
-
+                <h3 id="1-为什么说不是人类征服了小麦，而是小麦征服了人类？"><a href="#1-为什么说不是人类征服了小麦，而是小麦征服了人类？" class="headerlink" title="1.为什么说不是人类征服了小麦，而是小麦征服了人类？"></a><strong>1.为什么说不是人类征服了小麦，而是小麦征服了人类？</strong></h3><p>人类在进入农业社会以前是靠打猎和采集为生的，他们可以愉快的采摘，可以高兴的打猎，过着穿着皮草的生活，你发现咱们小时候看电视剧，猎户是一个很愉快的存在，村子里逃难啦，都死了，饿的没饭吃了，还有一个猎户在，这个猎户家里总有吃的，他可以靠天吃饭不需要打猎。</p>
+<p>当人们驯化了小麦以后，开始靠天吃饭，每天就开始非常忧虑的看着天边担心会不会下雨，下少了，麦子长不好，下多了也不行，雨下的刚刚好才行，人变得很焦虑。</p>
+<p>而且最重要的是小麦的成长需要特别小心的呵护。他们怕虫子，你需要和虫子作斗争，它们需要肥料，需要水，水本来就不好找，你还要给他们浇水，还需要给他们除草，人们一天到晚都在辛苦的劳作，我们经常会觉得，猎人哪有农民那么幸苦？</p>
+<p>这个时候人体出现了大量疾病，椎间盘突出，心血管疾病，这和我们的饮食结构发生了改变有关。当人开始吃大量的小麦以后，人的身体开始变得越来越糟糕，营养不良，小孩子的死亡率增加，为什么呢？因为妈妈开始给小孩子吃小麦，吃的这些面食米糊完全没有母乳的营养高，所以小孩子的抵抗力大幅下降，大量小孩子开始死亡。</p>
+<p>在过去，人和人之间不用打仗。你抓一头鹿，我抓另一头就行了，你可以打，我也可以打。但是当人们有了土地之后，糟糕了。人们都希望得到一块更好的土地，觉得哪个土地粮食长得更好，所以人们开始掠夺，有掠夺就有保护，人们的战争就比原始社会多了很多，人们为了保护自己的私有领地，开始出现了大量的暴力行为。所以这时候你会发现，人们其实生活在了水深火热之中，人根本没有变得更加愉快，幸福感没有上升。</p>
+<p>所以说，我们搞错了，不是人类驯化了小麦，而是小麦驯化了人类。因为小麦用这种方法使他们成为了地球上植物类的第一大物种，地球上遍布小麦，他们的基因得到了最广泛的增加，而人类的幸福感大幅下降。</p>
+<h3 id="2-人类简史讲述了什么内容？"><a href="#2-人类简史讲述了什么内容？" class="headerlink" title="2. 人类简史讲述了什么内容？"></a><strong>2. 人类简史讲述了什么内容？</strong></h3><p>认知革命：让人从一个猴子变成了统治这个地球的生物。</p>
+<p>农业革命：人从打猎变成了帝国，变成了有贸易，开始出现各种不同的文明。</p>
+<p>科学革命：农业社会整个分崩离析，形成了现在的格局。</p>
+<p>会用石头——会用火——会用语言——有想象力——种植小麦发展农业——和科学结合——开始有信用——开始有金融——人类就是这样一步一步进步的</p>
+<h3 id="3-为什么人们喜欢吃甜食"><a href="#3-为什么人们喜欢吃甜食" class="headerlink" title="3. 为什么人们喜欢吃甜食?"></a><strong>3. 为什么人们喜欢吃甜食?</strong></h3><p>人们为什么喜欢吃甜食？你有没有发现人们到了晚上，拿着一个巧克力，拿一个泡芙就受不了？有一个故事，在远古时期，人们靠打猎，采摘为生，人可以和容易就吃到肉，想吃的时候只要出去打一次猎就可以，但是很难吃到甜的东西。甜的东西只能怎么来呢？只能是树上结出来才能吃，所以当一个人发现了长满了果子的树的时候，他又带不走，他又没有办法储存，他唯一的办法就是吃到饱 ，吃到吐为止。所以我们现在吃甜食，很多人就忍不住，就会一直吃一直吃，这就是原始人的本性。</p>
+<h3 id="4-信用是如何推动人类进步的？"><a href="#4-信用是如何推动人类进步的？" class="headerlink" title="4. 信用是如何推动人类进步的？"></a><strong>4. 信用是如何推动人类进步的？</strong></h3><h3 id="5-语言和想象力在人类社会的发展过程当中起到了什么样的作用？"><a href="#5-语言和想象力在人类社会的发展过程当中起到了什么样的作用？" class="headerlink" title="5. 语言和想象力在人类社会的发展过程当中起到了什么样的作用？"></a><strong>5. 语言和想象力在人类社会的发展过程当中起到了什么样的作用？</strong></h3>
             </div>
             <hr/>
 
@@ -547,7 +508,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://changqing13.cn/2020/12/01/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">https://changqing13.cn/2020/12/01/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a>
+                    <a href="https://changqing13.cn/2021/02/01/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/">https://changqing13.cn/2021/02/01/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -585,8 +546,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                    <span class="chip bg-color">博客</span>
+                                <a href="/tags/%E5%8E%86%E5%8F%B2/">
+                                    <span class="chip bg-color">历史</span>
                                 </a>
                             
                         </div>
@@ -760,13 +721,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/12/01/Mysql/">
+                <a href="/2021/02/01/%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%83%E5%B9%B4%E7%9F%A5%E9%9D%92%E5%B2%81%E6%9C%88/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Mysql数据库">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="习近平七年知青岁月">
                         
-                        <span class="card-title">Mysql数据库</span>
+                        <span class="card-title">习近平七年知青岁月</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -777,14 +738,14 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-01
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-01
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                    技术
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6/" class="post-category">
+                                    读书
                                 </a>
                             
                             
@@ -794,8 +755,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">
-                        <span class="chip bg-color">数据库</span>
+                    <a href="/tags/%E5%8E%86%E5%8F%B2/">
+                        <span class="chip bg-color">历史</span>
                     </a>
                     
                 </div>
@@ -809,13 +770,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/02/01/%E9%80%9A%E8%AE%AF%E5%BD%95%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/">
+                <a href="/2021/02/01/%E7%BB%88%E8%BA%AB%E6%88%90%E9%95%BF/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="通信录管理系统">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="终身成长">
                         
-                        <span class="card-title">通信录管理系统</span>
+                        <span class="card-title">终身成长</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -826,14 +787,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-01
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                    技术
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6/" class="post-category">
+                                    读书
                                 </a>
                             
                             
@@ -843,8 +804,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/C/">
-                        <span class="chip bg-color">C++</span>
+                    <a href="/tags/%E6%88%90%E9%95%BF/">
+                        <span class="chip bg-color">成长</span>
                     </a>
                     
                 </div>

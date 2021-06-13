@@ -1,0 +1,1381 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="通信录管理系统, 常青~励む">
+    <meta name="description" content="乐分享，乐学习，乐成长">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>通信录管理系统 | 常青~励む</title>
+    <link rel="icon" type="image/jpeg" href="/favicon.jpg">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.jpg" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">常青~励む</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.jpg" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">常青~励む</div>
+        <div class="logo-desc">
+            
+            乐分享，乐学习，乐成长
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://gitee.com/Gc-Star/blog" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Chang qing
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://gitee.com/Gc-Star/blog" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Chang qing" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">通信录管理系统</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/C/">
+                                <span class="chip bg-color">C++</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                技术
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2020-02-01
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="通讯录管理系统需求"><a href="#通讯录管理系统需求" class="headerlink" title="通讯录管理系统需求"></a>通讯录管理系统需求</h1><h3 id="1-系统需求"><a href="#1-系统需求" class="headerlink" title="1. 系统需求"></a>1. 系统需求</h3><p>通讯录是一个可以记录亲人，好友的信息工具。</p>
+<p>系统中需要实现的功能如下：</p>
+<ul>
+<li>添加联系人：向通讯录中添加新人，信息包括（姓名，性别，年龄，联系电话，家庭住址）最多记录1000人</li>
+<li>显示联系人：显示通讯录中所有联系人</li>
+<li>删除联系人：按照姓名进行删除指定联系人</li>
+<li>查找联系人：按照姓名查看指定联系人信息</li>
+<li>修改联系人：按照姓名重新修改指定联系人</li>
+<li>清空联系人：清空通讯录中所有信息</li>
+<li>退出通讯录：退出当前使用的通讯录</li>
+</ul>
+<h3 id="2-菜单功能"><a href="#2-菜单功能" class="headerlink" title="2. 菜单功能"></a>2. 菜单功能</h3><p><strong>功能描述：</strong>用户选择功能的界面</p>
+<p><strong>步骤：</strong></p>
+<ul>
+<li>封装函数显示该界面，如 <code>void showMenu()</code></li>
+<li>在main函数中调用封装好的函数</li>
+</ul>
+<p><strong>代码实现</strong></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//1. -封装函数显示该界面，如 void showMenu()</span></span><br><span class="line"><span class="comment">//2. -在main函数中调用封装好的函数</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//1. -封装函数显示该界面，如 void showMenu()</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">showMenu</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;************************&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;***** 1. 添加联系人 *****&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;***** 2. 显示联系人 *****&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;***** 3. 删除联系人 *****&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;***** 4. 查找联系人 *****&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;***** 5. 修改联系人 *****&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;***** 6. 清空联系人 *****&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;***** 0. 退出通讯录 *****&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;*********************** &quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 调用showMenu（）函数,打印菜单</span></span><br><span class="line">	showMenu();</span><br><span class="line"></span><br><span class="line">	system(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>注意：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">system(<span class="string">&quot;pause&quot;</span>); <span class="comment">// 按任意键继续</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt; // 包含输入输出的头文件</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="3-退出功能"><a href="#3-退出功能" class="headerlink" title="3. 退出功能"></a>3. 退出功能</h3><p>功能描述：退出通讯录系统</p>
+<p>思路：根据用户不同的选择，进入不同的功能，可以选择switch分支结构，将整个架构进行搭建</p>
+<p>当用户选择0时，执行退出，选择其它先不操作，也不会退出程序</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> select = <span class="number">0</span>; <span class="comment">//创建一个变量，用来存放用户输入的结果</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">while</span> (<span class="number">1</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="comment">// 调用showMenu(）函数,打印菜单</span></span><br><span class="line">		showMenu();</span><br><span class="line"></span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; select;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">switch</span> (select)</span><br><span class="line">		&#123;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">1</span>:<span class="comment">//1.添加联系人</span></span><br><span class="line"></span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">case</span> <span class="number">2</span>:<span class="comment">//2.显示联系人</span></span><br><span class="line"></span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">case</span> <span class="number">3</span>:<span class="comment">//3.删除联系人</span></span><br><span class="line"></span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">case</span> <span class="number">4</span>:<span class="comment">//4.查找联系人</span></span><br><span class="line"></span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">case</span> <span class="number">5</span>:<span class="comment">//5.修改联系人</span></span><br><span class="line"></span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">case</span> <span class="number">6</span>:<span class="comment">//6.清空联系人</span></span><br><span class="line"></span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">case</span> <span class="number">0</span>:<span class="comment">//7.退出联系人</span></span><br><span class="line"></span><br><span class="line">			<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;欢迎下次使用&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">			system(<span class="string">&quot;pause&quot;</span>);<span class="comment">//按任意键继续</span></span><br><span class="line">			<span class="keyword">return</span> <span class="number">0</span>; <span class="comment">// 结束main()函数</span></span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">default</span>:</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">   </span><br><span class="line"></span><br><span class="line">	system(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>循环—用户输入选项—根据用户输入的选项搭建框架—如果用户输入0退出系统，如果用户选择其它数字，则重新展示菜单，用户重新选择0</p>
+<p><strong>注意：</strong>case 后面的变量要有一个空格</p>
+<h3 id="4-添加联系人"><a href="#4-添加联系人" class="headerlink" title="4. 添加联系人"></a>4. 添加联系人</h3><p>功能描述：</p>
+<p>实现添加联系人功能，联系人上限为1000人，联系人信息包括（姓名，性别，年龄，联系电话，家庭住址）</p>
+<p>添加联系人实现步骤：</p>
+<ol>
+<li>设计联系人结构体，自定义联系人类型</li>
+<li>设计通讯录结构体，用于存放联系人，还要记录当前有多少人，添加一个人时，当前人数++</li>
+<li>main()函数中创建通讯录</li>
+<li>封装一个函数，提示用户添加联系人信息</li>
+<li>测试联系人功能</li>
+</ol>
+<h4 id="4-1-设计联系人结构体"><a href="#4-1-设计联系人结构体" class="headerlink" title="4.1 设计联系人结构体"></a>4.1 设计联系人结构体</h4><hr>
+<p>联系人信息包括：姓名，性别，年龄，联系电话，家庭住址</p>
+<p>设计如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 设计联系人结构体</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Person</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	<span class="built_in">string</span> m_Name;<span class="comment">//姓名</span></span><br><span class="line">	<span class="keyword">int</span> m_Sex;    <span class="comment">//性别，1代表男，2代表女，不允许用户输入其它数据</span></span><br><span class="line">	<span class="keyword">int</span> m_Age;    <span class="comment">//年龄</span></span><br><span class="line">	<span class="keyword">int</span> m_Phone;  <span class="comment">//联系电话</span></span><br><span class="line">	<span class="built_in">string</span> m_Addr;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="4-2-设计通讯录结构体"><a href="#4-2-设计通讯录结构体" class="headerlink" title="4.2 设计通讯录结构体"></a>4.2 设计通讯录结构体</h4><hr>
+<p>设计通讯录结构体：维护一个容量为1000的存放联系人的数组，并记录当前通讯录中联系人的数量</p>
+<p>设计如下</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX 1000 <span class="comment">//定义一个宏常量，便于后期维护</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 设计通讯录结构体</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Addressbooks</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	Person personArray[MAX];<span class="comment">//设计一个联系人类型的数组，用于保存通讯录中的联系人</span></span><br><span class="line">	<span class="keyword">int</span> m_Size;             <span class="comment">//存放当前通讯录中联系人的个数</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>注意：</strong>为什么用宏常量</p>
+<p>方便后期维护，如果后期人数上限不是1000，而是2000，只需要改变MAX的值就可以了</p>
+<h4 id="4-3main-函数中创建通讯录"><a href="#4-3main-函数中创建通讯录" class="headerlink" title="4.3main()函数中创建通讯录"></a>4.3main()函数中创建通讯录</h4><hr>
+<p>创建一个通讯录变量，这个通讯录变量就是我们需要一直维护的通讯录</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">main函数的起始位置</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 创建一个通讯录类型变量</span></span><br><span class="line">	Addressbooks <span class="built_in">abs</span>;</span><br><span class="line">	<span class="comment">// 初始化通讯录中当前联系人个数</span></span><br><span class="line">	<span class="built_in">abs</span>.m_Size = <span class="number">0</span>;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="4-4封装一个函数，提示用户添加联系人信息"><a href="#4-4封装一个函数，提示用户添加联系人信息" class="headerlink" title="4.4封装一个函数，提示用户添加联系人信息"></a>4.4封装一个函数，提示用户添加联系人信息</h4><hr>
+<p>思路：添加联系人前先判断通讯录是否已满，如果满了就不再添加，不满则将联系人信息逐个加入到通讯录中</p>
+<p>代码如下：</p>
+<p>// 2. 显示联系人</p>
+<p>void showPerson(Addressbooks *abs)<br>{<br>    // 判断通讯录里面联系人的个数是否为0，如果为0，提示用户<br>    // 如果不为0，打印所有的联系人信息<br>    if (abs-&gt;m_Size == 0)<br>    {<br>        cout &lt;&lt; “当前联系人记录为空” &lt;&lt; endl;<br>    }<br>    else<br>    {<br>        for (int i = 0; i &lt; abs-&gt;m_Size; i++)<br>        {<br>            cout &lt;&lt; “姓名：” &lt;&lt; abs-&gt;personArray[i].m_Name &lt;&lt; “\t”;<br>            cout &lt;&lt; “性别：” &lt;&lt; (abs-&gt;personArray[i].m_Sex == 1 ? “男”:”女”) &lt;&lt; “\t”;<br>            cout &lt;&lt; “年龄：” &lt;&lt; abs-&gt;personArray[i].m_Age  &lt;&lt; “\t”;<br>            cout &lt;&lt; “电话：” &lt;&lt; abs-&gt;personArray[i].m_Phone &lt;&lt; “\t”;<br>            cout &lt;&lt; “家庭住址：” &lt;&lt; abs-&gt;personArray[i].m_Addr &lt;&lt; “\t” &lt;&lt; endl;<br>        }<br>    }</p>
+<pre><code>system(&quot;pause&quot;);
+system(&quot;cls&quot;);</code></pre>
+<p>}</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### 6. 删除联系人</span><br><span class="line"></span><br><span class="line">功能描述：按照姓名删除指定联系人</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">删除联系人步骤</span><br><span class="line"></span><br><span class="line">- 封装检测该联系人是否存在</span><br><span class="line">  - 因为后面还有按照姓名查找，修改</span><br><span class="line">- 封装删除联系人函数</span><br><span class="line">- 测试删除联系人功能</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#### 6.1 封装函数检测联系人是否存在</span><br><span class="line"></span><br><span class="line">设计思路：</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">删除联系人前，我们需要先判断用户输入的联系人是否存在，如果存在删除，不存在提示用户没有要删除的联系人，因此我们可以把检测联系人是否存在封装在一个函数中，如果存在，返回联系人在通讯录中的位置，不存在返回-1</span><br><span class="line"></span><br><span class="line">代码如下：</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;c++</span><br><span class="line">&#x2F;&#x2F; 封装一个函数：根据姓名判断该人在通讯录中是否存在</span><br><span class="line">&#x2F;&#x2F; 如果存在，返回该人在通讯录中的位置，如果不存在返回-1</span><br><span class="line">&#x2F;&#x2F; 参数1：通讯录  参数2：传入的姓名</span><br><span class="line"></span><br><span class="line">int isExist(Addressbooks *abs,string name)</span><br><span class="line">&#123;</span><br><span class="line">	&#x2F;&#x2F; 遍历联系人数组</span><br><span class="line">	for (int i &#x3D; 0; i &lt; abs-&gt;m_Size; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		if (abs-&gt;personArray[i].m_Name &#x3D;&#x3D; name)</span><br><span class="line">		&#123;</span><br><span class="line">			return i; &#x2F;&#x2F; 返回当前联系人在数组中的下标</span><br><span class="line">		&#125;</span><br><span class="line">		else</span><br><span class="line">		&#123;</span><br><span class="line">			return -1;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="6-2-封装函数删除联系人函数"><a href="#6-2-封装函数删除联系人函数" class="headerlink" title="6.2 封装函数删除联系人函数"></a>6.2 封装函数删除联系人函数</h4><p>01 用户输入一个姓名</p>
+<p>02 判断该人是否存在</p>
+<ul>
+<li>不存在<ul>
+<li>输出“联系人中没有此人”</li>
+</ul>
+</li>
+<li>存在<ul>
+<li>删除该人在通讯录中的信息<ul>
+<li>数组元素前移</li>
+<li>通讯录中联系人的个数-1</li>
+<li>提示用户删除成功</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;请输入你要查找的联系人姓名：&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">			<span class="built_in">string</span> name;</span><br><span class="line">			<span class="built_in">cin</span> &gt;&gt; name;</span><br><span class="line">			<span class="keyword">int</span> ret = isExist(&amp;<span class="built_in">abs</span>, name);</span><br><span class="line">			<span class="keyword">if</span> (ret == <span class="number">-1</span>)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;查无此人&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">			&#123;</span><br><span class="line">				<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;该人在通讯录中的位置是：&quot;</span> &lt;&lt; ret &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">			&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="C:\Users\forre\AppData\Roaming\Typora\typora-user-images\image-20201026213958260.png" alt="image-20201026213958260"></p>
+<p><strong>出现的错误</strong></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = ret; ret &lt; <span class="built_in">abs</span>-&gt;m_Size; i++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">abs</span>-&gt;personArray[i] = <span class="built_in">abs</span>-&gt;personArray[i + <span class="number">1</span>];<span class="comment">//把第i+1个联系人的信息赋值给第i个人</span></span><br><span class="line">		&#125;</span><br></pre></td></tr></table></figure>
+
+<p>注意：ret &lt; abs-&gt;m_Size</p>
+<p>01 判断条件是i</p>
+<p>02 i &lt; abs-&gt;m_Size - 1, 如果刚好数组里面有1000个人，那在移动的过程当中就会数组下标越界</p>
+<p><strong>画图分析</strong><br><img src="C:\Users\forre\AppData\Roaming\Typora\typora-user-images\image-20201027194308438.png" alt="image-20201027194308438"></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 3. 删除联系人</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">deletePerson</span><span class="params">(Addressbooks *<span class="built_in">abs</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">// 用户输入一个姓名</span></span><br><span class="line">	<span class="built_in">string</span> name;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;请输入要删除的联系人姓名：&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; name;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 调用检测联系人函数</span></span><br><span class="line">	<span class="keyword">int</span> ret = isExist(<span class="built_in">abs</span>,name); <span class="comment">// 此时abs 就是一个指针即地址</span></span><br><span class="line">	<span class="keyword">if</span> (ret == <span class="number">-1</span>)  <span class="comment">// 查无此人</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;该联系人在通讯录中不存在&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> <span class="comment">// 删除该人，此时ret中存放的就是用户输入的联系人在数组中的下标</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> i = ret; i &lt; <span class="built_in">abs</span>-&gt;m_Size - <span class="number">1</span>; i++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">abs</span>-&gt;personArray[i] = <span class="built_in">abs</span>-&gt;personArray[i + <span class="number">1</span>];<span class="comment">//把第i+1个联系人的信息赋值给第i个人</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">abs</span>-&gt;m_Size--;<span class="comment">// 通讯录中联系人数减1</span></span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;删除成功&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="7-查找联系人"><a href="#7-查找联系人" class="headerlink" title="7. 查找联系人"></a>7. 查找联系人</h3><hr>
+<p>功能描述：按照姓名查看指定联系人信息</p>
+<p> 查找联系人步骤</p>
+<ul>
+<li>封装查找联系人函数<ul>
+<li>提醒用户输入要查找的联系人姓名</li>
+<li>调用检测函数，检测该联系人是否存在<ul>
+<li>不存在<ul>
+<li>输出“查无此人”</li>
+</ul>
+</li>
+<li>存在<ul>
+<li>显示该联系人的所有信息</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>测试查找指定联系人</li>
+</ul>
+<p><strong>代码如下</strong></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 4.查找联系人</span></span><br><span class="line"><span class="comment">//    用户输出要查找的联系人姓名</span></span><br><span class="line"><span class="comment">//    调用检测函数，检测该联系人是否存在</span></span><br><span class="line"><span class="comment">//       不存在</span></span><br><span class="line"><span class="comment">//            输出“查无此人”</span></span><br><span class="line"><span class="comment">//       存在</span></span><br><span class="line"><span class="comment">//            显示该联系人的所有信息</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">findPerson</span><span class="params">(Addressbooks *<span class="built_in">abs</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">// 1. 用户输入要查找的联系人姓名</span></span><br><span class="line">	<span class="built_in">string</span> name;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;请输入你要查找的联系人姓名：&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; name;</span><br><span class="line"> </span><br><span class="line">	<span class="comment">//2. 调用检测函数，检测该联系人是否存在</span></span><br><span class="line">	<span class="keyword">int</span> ret = isExist(<span class="built_in">abs</span>,name);</span><br><span class="line"></span><br><span class="line">	<span class="comment">//3. 根据返回结果判断</span></span><br><span class="line">	<span class="keyword">if</span> (ret == <span class="number">-1</span>)   <span class="comment">// 返回-1</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;该联系人在通讯录中不存在&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span>  <span class="comment">// 返回该联系人在联系人数组里的下标</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;姓名：&quot;</span> &lt;&lt; <span class="built_in">abs</span>-&gt;personArray[ret].m_Name &lt;&lt; <span class="string">&quot;\t&quot;</span>;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;性别：&quot;</span> &lt;&lt; (<span class="built_in">abs</span>-&gt;personArray[ret].m_Sex == <span class="number">1</span> ? <span class="string">&quot;男&quot;</span>:<span class="string">&quot;女&quot;</span> )&lt;&lt; <span class="string">&quot;\t&quot;</span>;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;年龄：&quot;</span> &lt;&lt; <span class="built_in">abs</span>-&gt;personArray[ret].m_Age &lt;&lt; <span class="string">&quot;\t&quot;</span>;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;电话：&quot;</span> &lt;&lt; <span class="built_in">abs</span>-&gt;personArray[ret].m_Phone &lt;&lt; <span class="string">&quot;\t&quot;</span>;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;家庭住址：&quot;</span> &lt;&lt; <span class="built_in">abs</span>-&gt;personArray[ret].m_Addr &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	system(<span class="string">&quot;cls&quot;</span>);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="8-修改联系人"><a href="#8-修改联系人" class="headerlink" title="8. 修改联系人"></a>8. 修改联系人</h4><hr>
+<ul>
+<li>封装函数修改联系人<ul>
+<li>1 提示用户输入要修改的联系人姓名</li>
+<li>2 调用函数判断该联系人在通讯录中是否存在<ul>
+<li>2.1不存在，返回-1<ul>
+<li>提示用户</li>
+</ul>
+</li>
+<li>2.2 存在，返回联系人数组的下标<ul>
+<li>修改查找到的联系人信息</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 5.修改联系人</span></span><br><span class="line"><span class="comment">//- 1 提示用户输入要修改的联系人姓名</span></span><br><span class="line"><span class="comment">//- 2 调用函数判断该联系人在通讯录中是否存在</span></span><br><span class="line"><span class="comment">//-       2.1不存在，返回 - 1</span></span><br><span class="line"><span class="comment">//-            提示用户</span></span><br><span class="line"><span class="comment">//-       2.2 存在，返回联系人数组的下标</span></span><br><span class="line"><span class="comment">//-           修改查找到的联系人信息</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">modifyPerson</span><span class="params">(Addressbooks* <span class="built_in">abs</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">// 1 提示用户输入要修改的联系人姓名</span></span><br><span class="line">	<span class="built_in">string</span> name;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;请输入您要修改的联系人姓名：&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; name;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 2 调用函数判断该联系人在通讯录中是否存在</span></span><br><span class="line">	<span class="keyword">int</span> ret = isExist(<span class="built_in">abs</span>,name);</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 根据返回值做判断</span></span><br><span class="line">	<span class="keyword">if</span> (ret == <span class="number">-1</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;该联系人在通讯录中不存在&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> </span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;您要修改的联系人姓名为：&quot;</span> &lt;&lt; name &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		</span><br><span class="line">		<span class="comment">// 修改姓名</span></span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;请输入修改后的姓名：&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		<span class="built_in">string</span> new_Name;</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; new_Name;</span><br><span class="line">		<span class="built_in">abs</span>-&gt;personArray[ret].m_Name = new_Name;</span><br><span class="line"></span><br><span class="line">		<span class="comment">// 修改性别</span></span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;请输入修改后的性别：&quot;</span>&lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;1--男&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;2--女&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		<span class="keyword">int</span> sex = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">while</span> (<span class="literal">true</span>)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">cin</span> &gt;&gt; sex;</span><br><span class="line">			<span class="keyword">if</span> (sex == <span class="number">1</span> || sex == <span class="number">2</span>)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="built_in">abs</span>-&gt;personArray[ret].m_Sex = sex;</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">			&#123;</span><br><span class="line">				<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;输入错误，请重新输入&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line"></span><br><span class="line">		<span class="comment">// 修改年龄</span></span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;请输入修改后的年龄：&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		<span class="keyword">int</span> age;</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; age;</span><br><span class="line">		<span class="built_in">abs</span>-&gt;personArray[ret].m_Age = age;</span><br><span class="line"></span><br><span class="line">		<span class="comment">// 修改电话</span></span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;请输入修改后电话：&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		<span class="keyword">int</span> phone;</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; phone;</span><br><span class="line">		<span class="built_in">abs</span>-&gt;personArray[ret].m_Phone;</span><br><span class="line"></span><br><span class="line">		<span class="comment">//修改家庭住址</span></span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;请输入修改后的家庭住址：&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		<span class="built_in">string</span> addr;</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; addr;</span><br><span class="line">		<span class="built_in">abs</span>-&gt;personArray[ret].m_Addr = addr;</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;修改成功&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	</span><br><span class="line">	system(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	system(<span class="string">&quot;cls&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="8-清空联系人"><a href="#8-清空联系人" class="headerlink" title="8. 清空联系人"></a>8. 清空联系人</h3><hr>
+<ul>
+<li>封装一个函数清空联系人<ul>
+<li>把当前通讯录中人数改为0，逻辑上的清空，你访问不到通讯录中的信息</li>
+</ul>
+</li>
+<li>测试联系人信息</li>
+</ul>
+<p><strong>代码如下</strong></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 6. 清空联系人</span></span><br><span class="line"><span class="comment">// 通讯录中当前人数修改为0</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">cleanPerson</span><span class="params">(Addressbooks* <span class="built_in">abs</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">abs</span>-&gt;m_Size = <span class="number">0</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;通讯录已清空&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	</span><br><span class="line">	system(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	system(<span class="string">&quot;cls&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>三目运算符和输入输出运算符的优先级</p>
+
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Changqing Gao</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://changqing13.cn/2020/02/01/%E9%80%9A%E8%AE%AF%E5%BD%95%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/">https://changqing13.cn/2020/02/01/%E9%80%9A%E8%AE%AF%E5%BD%95%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Changqing Gao</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/C/">
+                                    <span class="chip bg-color">C++</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2020/12/01/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Hexo博客搭建">
+                        
+                        <span class="card-title">Hexo博客搭建</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-01
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">博客</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/02/01/%E9%80%9A%E8%AE%AF%E5%BD%95%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="通信录管理系统">
+                        
+                        <span class="card-title">通信录管理系统</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-01
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/C/">
+                        <span class="chip bg-color">C++</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2020-2021</span>
+            
+            <span id="year">2020</span>
+            <a href="/about" target="_blank">Changqing Gao</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "11";
+                    var startDate = "24";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/Gc-Star" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:2724281456@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2724281456" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2724281456" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+	
+    
+
+    
+    
+    <script type="text/javascript" size="150" alpha='0.6'
+        zIndex="-1" src="/libs/background/ribbon-refresh.min.js" async="async"></script>
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+    <!-- 修改1：背景樱花飘落特效 -->
+    <script type="text/javascript">
+    //只在桌面版网页启用特效
+    var windowWidth = $(window).width();
+    if (windowWidth > 768) {
+        document.write('<script type="text/javascript" src="js/sakura.js"><\/script>');
+    }
+    </script>
+
+     <!-- 修改2: 背景鼠标点击烟花爆炸特效 -->
+    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+    <script type="text/javascript" src="js/fireworks.js"></script>
+   
+    
+
+</body>
+
+</html>
+
+

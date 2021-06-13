@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo博客搭建, 常青~励む">
+    <meta name="keywords" content="西南联大启示录, 常青~励む">
     <meta name="description" content="乐分享，乐学习，乐成长">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo博客搭建 | 常青~励む</title>
+    <title>西南联大启示录 | 常青~励む</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo博客搭建</h1>
+                    <h1 class="description center-align post-title">西南联大启示录</h1>
                 </div>
             </div>
         </div>
@@ -431,8 +431,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                <span class="chip bg-color">博客</span>
+                            <a href="/tags/%E5%8E%86%E5%8F%B2/">
+                                <span class="chip bg-color">历史</span>
                             </a>
                         
                     </div>
@@ -443,8 +443,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                技术
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6/" class="post-category">
+                                读书
                             </a>
                         
                     </div>
@@ -456,7 +456,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-12-01
+                    2021-02-01
                 </div>
                 
 
@@ -472,56 +472,47 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="1-博客搭建步骤"><a href="#1-博客搭建步骤" class="headerlink" title="1 博客搭建步骤"></a>1 博客搭建步骤</h1><h2 id="1-1-安装Node-js"><a href="#1-1-安装Node-js" class="headerlink" title="1.1 安装Node.js"></a>1.1 安装Node.js</h2><p><a target="_blank" rel="noopener" href="https://nodejs.org/en/">下载链接</a></p>
-<p>查看版本</p>
-<ul>
-<li>node -v 查看node版本</li>
-<li>npm -v 查看npm版本</li>
-</ul>
-<h2 id="1-2-安装Git"><a href="#1-2-安装Git" class="headerlink" title="1.2 安装Git"></a>1.2 安装Git</h2><p>安装Git，配置环境变量</p>
-<p>设置ssh Key</p>
-<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/fee5baf756c8">https://www.jianshu.com/p/fee5baf756c8</a></p>
-<h2 id="1-3-安装Hexo博客框架"><a href="#1-3-安装Hexo博客框架" class="headerlink" title="1.3 安装Hexo博客框架"></a>1.3 安装Hexo博客框架</h2><p>借助npm包管理器来安装cnpm, cnpm是淘宝团队做的国内镜像，因为npm的服务器在国外，所以可能会影响安装</p>
-<p><strong>1 安装cnpm</strong></p>
-<p>npm install -g cnpm regsistry=<a target="_blank" rel="noopener" href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a></p>
-<p>查看cnpm版本 cnpm -v</p>
-<p><strong>2 用cnpm 安装hexo博客框架</strong></p>
-<p>cnpm install -g hexo-cli</p>
-<p>查看hexo博客框架 hexo -v</p>
-<p><strong>3 初始化一个博客</strong></p>
-<p>1 查看当前工作路径 </p>
-<ul>
-<li>mac: pwd</li>
-<li>Windows: cd</li>
-</ul>
-<p>2 新建一个文件夹</p>
-<p>mkdir blog</p>
-<p>在当前目录下新建一个文件夹，所有博客的东西都在blog这个目录里面，如果出现无法解决的错误，只需要把这个文件夹删掉重来就可以了</p>
-<p>3 进入blog目录</p>
-<p>cd blog/</p>
-<p>4 使用hexo初始化一个博客</p>
-<p>hexo init</p>
-<p>5 查看blog目录里生成的基础的框架内容</p>
-<p>dir</p>
-<p>6 启动博客</p>
-<p>hexo s</p>
-<p>7 浏览器访问</p>
-<p><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a></p>
-<p>在本地4000端口进行访问</p>
-<h2 id="1-4-部署到github"><a href="#1-4-部署到github" class="headerlink" title="1.4 部署到github"></a>1.4 部署到github</h2><p><strong>1 登录GitHub，新建一个仓库</strong></p>
-<p> 仓库命名必须符合规定，即“昵称+.github.io”</p>
-<p><strong>2 安装git插件</strong></p>
-<p>blog目录下装一个git部署的插件</p>
-<p>cnpm install –save hexo-developyer-git</p>
-<p><strong>3 修改配置文件</strong></p>
-<p> dir 显示当前目录下的所有文件</p>
-<p>修改deploy下的参数，其中repo为github新建仓库的链接</p>
-<p><strong>4 部署到远端</strong></p>
-<p>hexo d</p>
-<p>5 <strong>刷新github仓库</strong></p>
-<p>此时就会看到博客生成的内容</p>
-<p><strong>6 访问博客</strong></p>
-<p>输入仓库名，此时便可以访问你的博客</p>
+                <p>《西南联大启示录》——第一集 被迫南迁</p>
+<p>7月29日</p>
+<p>“西南联大”，全称“国立西南联合大学”，诞生于中国抗日战争时期。1937年秋，北大，清华，南开，三大名校联合组成“国立长沙联合大学”。1938年西迁昆明，更名为“国立西南联合大学”。 1946年夏结束。前后历时九年，大师云集，人才辈出。正如梅贻琦所言，所谓大学，非有“大楼”之谓也，乃有“大师”之谓也。其中著名理学家李政道，杨振宁均出自西南联大。</p>
+<p>第一集主要讲述了西南联大南迁的缘由：</p>
+<p>①1937年7月7日卢沟桥事变，抗日战争爆发。7月29日，日军占领北京大学，把一所百年学府变成了人间地狱。</p>
+<p>② 1937年7月29日，日军轰炸南开大学。1919年五四爱国运动之后，南开大学成立，创办人是张伯苓和严修，我国第一所私立大学。</p>
+<p>③1937年8月，政府决定三所大学联合办学，迁往长沙。</p>
+<p>④1937年末，南京沦陷，武汉告急，威胁长沙。学校开始向昆明南迁。</p>
+<p>日寇入侵，沿海城市相继沦陷，大学也被日军毁坏殆尽，不是变成了废墟和火海，就是成为了日军实施暴行的人间地狱。蒋介石的不抵抗政策让老百姓感到前途迷茫。但学生们却一腔热血，立志救国。此时摆在学生面前的道路有两条：一是投笔从戎，冲向前线，英勇抗敌；一是读书救国。教授们意识到抗战是一个长期的过程，并不是三五个月就可以结束。于是清华，北大，南开联合办学，在昆明成立“西南联合大学”。“读书不忘救国，救国不忘读书”，正是这一个历时九年的大学，为将来中国的发展培养了杰出的的人才。国家危难，山河破碎令人捶胸顿足；但又因为有这样一批满腔热血，立志救国的青年而激动振奋。</p>
+<p>《西南联大启示录》——第而集 第二故乡</p>
+<p>7月30日</p>
+<p>带着迷茫与不舍，联大师生们踏上了前往长沙的艰辛旅途。迷茫的是：面对外敌的入侵，中国还能不能再继续存在下去？不舍的是：他们离开了家园，要去一个陌生的地方开始自己的求学之路。</p>
+<p>长达3000里的行军，让这些平常足不出户的知识分子重新认识了生活。他们看到了最底层劳动人民的生活。一路上他们看到了民风的淳朴，对命运的不屈服。他们对待这一批从京城来的师生们无比的尊敬和热情，因为他们相信这些人将来都会是国家的栋梁之才。旅途的艰辛和淳朴的民风，让他们的思想开始变得接地气。走出了舒适安逸的象牙塔，但是这3000里的征程，这一个步行的大学让他们在精神上获得了慰藉，让他们坚定了民族抗战的决心，让他们坚定了读书救国的信念。雄伟壮阔的山河和勤劳淳朴的劳动人民让他们认识到中国不会亡，因为我们有四万万不愿屈服的灵魂。</p>
+<p>本集让我意识到在学习之余，多去其他地方看看。去看看祖国雄伟壮阔的大好河山；去看不同地域的民族风情。让自己的思想变得更接地气。</p>
+<p>7月30日</p>
+<p>“亮剑“精神和情绪管理</p>
+<p>1.“亮剑”精神：</p>
+<p>古代剑客们在与对手狭路相逢时，无论对手有多么的强大，就算对手是天下第一的剑客，明知不敌，也要亮出自己的宝剑。即使是倒在对手的剑下，也虽败犹荣，这就是亮剑精神。</p>
+<p>这是何等的凛然，何等的决绝，何等的快意，何等的气魄！当你面对无法克服的困难的时候，也要勇敢去面对，失败并不可怕，可怕的是你没有面对失败的勇气。“狭路相逢勇者胜”，勇者是面对天下第一剑客，明知不敌也要亮出自己的宝剑；勇者是面对敌人的重重包围，就算战至一人仍不屈服；勇者是在生活中身陷逆境，依然在夹缝中求生存，求发展，生根发芽。做一个生活的勇者，有时候困难并没有我们想象的那么可怕，只要我们有勇气亮出自己的宝剑，必能砍出一个缺口。“亮剑”，亮的是坚韧不屈的精神，亮的是惊天动地的气魄，亮的是破釜沉舟的胆识。</p>
+<p>2.如何与情绪做朋友</p>
+<p>——出自《一平方米的静心》 </p>
+<p> 在情绪出现的时候，先去观察你的情绪。当你意识到有些焦虑的时候，如果对自己说：“可恶，焦虑怎么又出现了”。这时只会增加你焦虑的程度。告诉自己：“原来这就是焦虑”，接着继续做你的事情。或者说：“你好啊，焦虑君。”换种打开方式，你的心态马上就会变得不一样。再做几次深呼吸，继续回到正常的轨道。多去观察自己的情绪，你便会能更好的掌控自己的情绪。“真爱来自于深刻的了解”，越了解一个人，越愿意和他做朋友，对情绪也是如此。观察当你看过一个小时的相声或脱口秀的的喜悦；观察当你没有完成今日任务的沮丧；观察不想学习时的迷茫和焦虑。这时，调整自己的呼吸，放慢做事的节奏，“你好啊，我想和你做朋友”。控制自己的情绪，便不会被自己的情绪所控制。</p>
+<p>《西南联大启示录》——第三集 天地课堂</p>
+<p>7月31日</p>
+<p>①艰苦的学习条件  </p>
+<p>联大师生们已经在昆明定居了下来，教学工作也逐渐正常化了。但是条件却不可谓不艰苦。上课的教室是铁皮的屋顶，每当一下雨，可真是“风声，雨声，读书声，声声入耳”。大雨倾盆时便分不清老师的讲课声和雨声了，只能自己看书或只能赏雨了。没有热水，寝室里灯光昏暗，茶馆便成了学子们最钟爱的地方，喝茶读书论道，倒也自在。</p>
+<p>②大师云集，坚守初心</p>
+<p>此时的西南联大，大师云集。越是基础的课程越是有名的教授来教。不过此时的教授走在街上和老百姓并没有什么区别。从京城到乡村山野；从优渥的生活到为生计发愁，但这些并没有改变教授们为中国培养人才的初心。贫贱不移，他们不仅是有学问的大师，更是承载着中国未来的希望。“为天地立心，为生民立命。为往圣继绝学，为万世开太平。”教授们用自己的行动诠释了自己的使命。</p>
+<p>《西南联大启示录》——第四集 弹雨弦歌</p>
+<p>39/80 BTC 营前打卡 武汉洪山 Frank-高常青</p>
+<p>8月1日</p>
+<p>1938年云南遭受日军轰炸，校长失去了办公室，学生失去了校舍 。但这并不能影响联大师生对知识的渴望。没有教室，教授在月光下操场里为学生们授课；书籍资源稀少，师生们轮流抄书，轮流阅读作报告。强烈的求知欲不会因为日军疯狂的弹雨而有片刻的停止，强烈的使命，更加坚定了”读书救国”的决心，因为你们，中国弦歌不辍，文化长存。</p>
+<p>反观当下，书籍变多了，资源丰富了，设备先进了，所以，我们要珍惜现在的资源，学习大师求知的精神。</p>
+<p>抗战胜利，国民党反动派发动内战。云南省主席龙云下台，联大的学生运动遭到国民党反动派的打压。在“一二一”运动中，四位同学因为护校惨遭国民党反动派的杀害。看到这里义愤填膺，刚刚结束了日军的欺凌，又要面对内战的折磨。这些刽子手激起了群愤，联大师生和云南民众正义发声“要和平，不要内战”。</p>
+<p>敢于发声，黑暗固然害怕。但只要你敢于发声，你就是黑暗里的一束微光，微光会吸引微光，最终照亮整个世界。</p>
+<p>《西南联大启示录》——第五集 红烛不灭</p>
+<p>8月2日</p>
+<p>  闻一多先生为中华民族发声，为和平发声，惨遭国民党反动派的杀害。他本该是一位诗人，在乱世下他变成了一位勇士 ，用他淋漓的鲜血唤醒民众的灵魂，用他伟岸的身躯捍卫自己的使命。从此，世间少了一位诗人，但中国却多了一位勇士。</p>
+<p>  新中国成立，对中国来说，核武器事业成为了一项举足轻重的事业，他关乎中国的国际地位和话语权。邓稼先挺身而出，把一生都献给了中国的核武器事业。他是中国核武器事业的奠基者和开拓者，他是精忠报国的勇士。他的献身，对一个家庭来说，是悲剧；但对国家来说，是喜剧。</p>
+<p>  西南联大的师生们用自己的鲜血捍卫了民族的尊严，用自己的生命谱写了民族的乐章。他们那贫贱不移，威武不屈的民族气节；他们那求知若渴，带经而触的的求学精神，他们那坚守初心，不忘使命的救国抱负是我们应该牢记和学习的榜样。</p>
+<p> 最后，《西南联大启示录》给我的两个的影响：一为读书，要读好书，保持强烈的求知欲；一为抱负，要有壮志，为国家为社会做贡献。</p>
 
             </div>
             <hr/>
@@ -547,7 +538,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://changqing13.cn/2020/12/01/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">https://changqing13.cn/2020/12/01/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a>
+                    <a href="https://changqing13.cn/2021/02/01/%E8%A5%BF%E5%8D%97%E8%81%94%E5%A4%A7%E5%90%AF%E7%A4%BA%E5%BD%95/">https://changqing13.cn/2021/02/01/%E8%A5%BF%E5%8D%97%E8%81%94%E5%A4%A7%E5%90%AF%E7%A4%BA%E5%BD%95/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -585,8 +576,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                    <span class="chip bg-color">博客</span>
+                                <a href="/tags/%E5%8E%86%E5%8F%B2/">
+                                    <span class="chip bg-color">历史</span>
                                 </a>
                             
                         </div>
@@ -760,13 +751,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/12/01/Mysql/">
+                <a href="/2021/02/01/%E7%BB%88%E8%BA%AB%E6%88%90%E9%95%BF/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Mysql数据库">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="终身成长">
                         
-                        <span class="card-title">Mysql数据库</span>
+                        <span class="card-title">终身成长</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -777,14 +768,14 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-01
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-01
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                    技术
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6/" class="post-category">
+                                    读书
                                 </a>
                             
                             
@@ -794,8 +785,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">
-                        <span class="chip bg-color">数据库</span>
+                    <a href="/tags/%E6%88%90%E9%95%BF/">
+                        <span class="chip bg-color">成长</span>
                     </a>
                     
                 </div>
@@ -809,13 +800,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/02/01/%E9%80%9A%E8%AE%AF%E5%BD%95%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/">
+                <a href="/2021/02/01/%E9%AB%98%E6%95%88%E8%83%BD%E4%BA%BA%E5%A3%AB%E7%9A%84%E4%B8%83%E4%B8%AA%E4%B9%A0%E6%83%AF/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="通信录管理系统">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="高效能人士的七个习惯">
                         
-                        <span class="card-title">通信录管理系统</span>
+                        <span class="card-title">高效能人士的七个习惯</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -826,14 +817,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-01
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                    技术
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6/" class="post-category">
+                                    读书
                                 </a>
                             
                             
@@ -843,8 +834,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/C/">
-                        <span class="chip bg-color">C++</span>
+                    <a href="/tags/%E6%88%90%E9%95%BF/">
+                        <span class="chip bg-color">成长</span>
                     </a>
                     
                 </div>

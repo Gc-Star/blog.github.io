@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo博客搭建, 常青~励む">
+    <meta name="keywords" content="习近平七年知青岁月, 常青~励む">
     <meta name="description" content="乐分享，乐学习，乐成长">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo博客搭建 | 常青~励む</title>
+    <title>习近平七年知青岁月 | 常青~励む</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -315,7 +315,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo博客搭建</h1>
+                    <h1 class="description center-align post-title">习近平七年知青岁月</h1>
                 </div>
             </div>
         </div>
@@ -431,8 +431,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                <span class="chip bg-color">博客</span>
+                            <a href="/tags/%E5%8E%86%E5%8F%B2/">
+                                <span class="chip bg-color">历史</span>
                             </a>
                         
                     </div>
@@ -443,8 +443,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                技术
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6/" class="post-category">
+                                读书
                             </a>
                         
                     </div>
@@ -456,7 +456,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-12-01
+                    2021-02-01
                 </div>
                 
 
@@ -472,56 +472,33 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="1-博客搭建步骤"><a href="#1-博客搭建步骤" class="headerlink" title="1 博客搭建步骤"></a>1 博客搭建步骤</h1><h2 id="1-1-安装Node-js"><a href="#1-1-安装Node-js" class="headerlink" title="1.1 安装Node.js"></a>1.1 安装Node.js</h2><p><a target="_blank" rel="noopener" href="https://nodejs.org/en/">下载链接</a></p>
-<p>查看版本</p>
-<ul>
-<li>node -v 查看node版本</li>
-<li>npm -v 查看npm版本</li>
-</ul>
-<h2 id="1-2-安装Git"><a href="#1-2-安装Git" class="headerlink" title="1.2 安装Git"></a>1.2 安装Git</h2><p>安装Git，配置环境变量</p>
-<p>设置ssh Key</p>
-<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/fee5baf756c8">https://www.jianshu.com/p/fee5baf756c8</a></p>
-<h2 id="1-3-安装Hexo博客框架"><a href="#1-3-安装Hexo博客框架" class="headerlink" title="1.3 安装Hexo博客框架"></a>1.3 安装Hexo博客框架</h2><p>借助npm包管理器来安装cnpm, cnpm是淘宝团队做的国内镜像，因为npm的服务器在国外，所以可能会影响安装</p>
-<p><strong>1 安装cnpm</strong></p>
-<p>npm install -g cnpm regsistry=<a target="_blank" rel="noopener" href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a></p>
-<p>查看cnpm版本 cnpm -v</p>
-<p><strong>2 用cnpm 安装hexo博客框架</strong></p>
-<p>cnpm install -g hexo-cli</p>
-<p>查看hexo博客框架 hexo -v</p>
-<p><strong>3 初始化一个博客</strong></p>
-<p>1 查看当前工作路径 </p>
-<ul>
-<li>mac: pwd</li>
-<li>Windows: cd</li>
-</ul>
-<p>2 新建一个文件夹</p>
-<p>mkdir blog</p>
-<p>在当前目录下新建一个文件夹，所有博客的东西都在blog这个目录里面，如果出现无法解决的错误，只需要把这个文件夹删掉重来就可以了</p>
-<p>3 进入blog目录</p>
-<p>cd blog/</p>
-<p>4 使用hexo初始化一个博客</p>
-<p>hexo init</p>
-<p>5 查看blog目录里生成的基础的框架内容</p>
-<p>dir</p>
-<p>6 启动博客</p>
-<p>hexo s</p>
-<p>7 浏览器访问</p>
-<p><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a></p>
-<p>在本地4000端口进行访问</p>
-<h2 id="1-4-部署到github"><a href="#1-4-部署到github" class="headerlink" title="1.4 部署到github"></a>1.4 部署到github</h2><p><strong>1 登录GitHub，新建一个仓库</strong></p>
-<p> 仓库命名必须符合规定，即“昵称+.github.io”</p>
-<p><strong>2 安装git插件</strong></p>
-<p>blog目录下装一个git部署的插件</p>
-<p>cnpm install –save hexo-developyer-git</p>
-<p><strong>3 修改配置文件</strong></p>
-<p> dir 显示当前目录下的所有文件</p>
-<p>修改deploy下的参数，其中repo为github新建仓库的链接</p>
-<p><strong>4 部署到远端</strong></p>
-<p>hexo d</p>
-<p>5 <strong>刷新github仓库</strong></p>
-<p>此时就会看到博客生成的内容</p>
-<p><strong>6 访问博客</strong></p>
-<p>输入仓库名，此时便可以访问你的博客</p>
+                <p>1.四个特点:</p>
+<p>习近平能够从一名普通知青成为梁家河大队的领头人，他具备的特点:</p>
+<p>①强烈的使命感。“先天下之忧而忧，后天下之乐而乐”，忧虑全队的生活和生产，忧虑群众的利益。</p>
+<p>②辩证思维的方式。在下乡期间，习近平读了大量马克思主义哲学方面的著作，尤其是唯物主义辩证法，能够从多个角度看待问题，从而避免了问题的单一性。</p>
+<p>③遇事有定力。曾国藩有言:“愈是军情棘手，众议纷纭，愈要心明气定，从’耐烦’二字痛下功夫”。遇事要具备控制情绪的能力，调整自己的心态，智商重要，而情商则更为重要。</p>
+<p>④肯读书学习。在下乡期间，白天劳作，晚上挑灯学习。读书范围也很广泛，其主要涉猎马克思主义经典著作，历史著作，文学著作和军事国际政治著作。</p>
+<p>2.一个故事:</p>
+<p>下乡期间，勤奋好学。白天劳动，晚上回家一有空就读书。害怕打扰室友休息，就用身体挡着煤油灯的光线。农村的知青生活可谓是体力劳动和脑力劳动的高度结合。</p>
+<p>3.一个思考:</p>
+<p>宋朝诗人黄山谷有一句名言:三日不读书，便觉语言无味，面目可憎。每日读书，可以让我每天接受新的知识，产生新的思考。否则便觉得生活一日重复一日，难免有无味之感。开始读书也是始于BTC之际，从《大学与大师》到《跃迁》到《高效能人士的七个习惯》。总觉得时间不够，只要愿意，每天还是可以看一些的。故事性强的可以利用碎片化时间读书，逻辑性强的则需要安静的环境慢慢分析。</p>
+<p>1.过四关</p>
+<p>①“跳蚤关”。初到陕北，身上就开始长大疙瘩。这种包比蚊子叮的还严重，用手反复挠，挠破了就流血。由于水土不服，不适应当地的环境，“跳蚤”也可以让人手足无措。</p>
+<p>②“饮食关”。粗粮为主，缺油，没有什么蔬菜。吃的最多的就是酸菜。农民们再秋后一般会腌制两三缸酸菜，有白菜，胡萝卜，洋柿子等。相比于今天，从小生活在城市的孩子估计想象不到。</p>
+<p>③“劳动关”。就单是挑水，挑粪和挑麦子也并不是那么容易。挑水掌握不好平衡，几个来回肩膀就磨破了皮。往山上挑粪，山路又陡又窄，很消耗体力。挑麦子又不一样，无论多远都不能休息，一旦放下担子麦穗就会散落，本来亩产不高，又怎么舍得损失呢。</p>
+<p>④“思想观”。正是这些经历，让习近平在困境中思想得到了升华。从一个迷茫的中学生成长为一个有阅历，有抱负，有思想的热血青年。放弃前途光明的工作，放弃回北京的机会，扎根农村。这不仅仅是独特的人生设计理念，更是真正把老百姓放在心里，为老百姓做实事。</p>
+<p>2.一个思考:由于身体上的磨练造就了习近平思想上的升华。为什么习近平能够在那么艰苦的条件下还能坚持学习读书听收音机去充实自己。我觉得一方面源于他对知识的渴望，另一方面是“想为百姓做实事”的坚定信念。</p>
+<p>3.一个“句子”分享</p>
+<p>“高山仰止，景行行止”。出自《诗经 小雅》这是习近平对于中外历史人物在困境中奋斗的感悟。意思是高尚的品德如巍巍大山让人仰慕，光明的言行似通天大道让人遵循。虽然不能达到这样的境界，但心里也知道了努力的方向。</p>
+<p>1.心态</p>
+<p>当时插队的时候，近平不仅仅在生活上(过四关)，体力上(年龄最小)要承受压力，心理上更要承受巨大的压力。习近平的父亲习仲勋同志受迫害，挨批斗，被下放的河南。母亲当时也过着审查的生活，近平成分是“黑帮子弟”。但是习近平从来不会诉苦，从来不会抱怨，而是把它埋藏在心里。一个人的强取决于心灵上的强大。一个人的深度取决于思想上的格局和视野。</p>
+<p>2.定力</p>
+<p>插队时，同寝室的几个知青会去其他村串门或者蹭吃的。近平总是在那里看书。不去参与这些事情。一个十五六岁的小伙子在同龄人都跑出去玩耍的时候，自己还能塌下心来看书，阅读，思考，可见其定力，以及强烈的求知欲和上进心。</p>
+<p>3.反思力</p>
+<p>“做事三度”</p>
+<p>力度:做事情要有魄力，布局好的事情就不会轻易更改，瞻前顾后，听了很多人的想法和意见自己反倒拿不了主义。最后变得没了主见。</p>
+<p>速度:拖延，犹豫。做事情犹豫不决，怎样才能做的“又快又好”，这是要反思的一个问题。记住一句话“想，都是问题；做，才是答案”</p>
+<p>风度:学会包容。佛祖能够普度众生，是因为对每一个人都抱有善意。“爱自己”，“爱别人”，“爱众生”。王国维曾言读书有三重境界，爱也有三重境界。</p>
 
             </div>
             <hr/>
@@ -547,7 +524,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://changqing13.cn/2020/12/01/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">https://changqing13.cn/2020/12/01/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a>
+                    <a href="https://changqing13.cn/2021/02/01/%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%83%E5%B9%B4%E7%9F%A5%E9%9D%92%E5%B2%81%E6%9C%88/">https://changqing13.cn/2021/02/01/%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%83%E5%B9%B4%E7%9F%A5%E9%9D%92%E5%B2%81%E6%9C%88/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -585,8 +562,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                    <span class="chip bg-color">博客</span>
+                                <a href="/tags/%E5%8E%86%E5%8F%B2/">
+                                    <span class="chip bg-color">历史</span>
                                 </a>
                             
                         </div>
@@ -756,17 +733,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/12/01/Mysql/">
+                <a href="/2021/02/01/%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%83%E5%B9%B4%E7%9F%A5%E9%9D%92%E5%B2%81%E6%9C%88/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Mysql数据库">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="习近平七年知青岁月">
                         
-                        <span class="card-title">Mysql数据库</span>
+                        <span class="card-title">习近平七年知青岁月</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -776,26 +754,27 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-01
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-01
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                    技术
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6/" class="post-category">
+                                    读书
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">
-                        <span class="chip bg-color">数据库</span>
+                    <a href="/tags/%E5%8E%86%E5%8F%B2/">
+                        <span class="chip bg-color">历史</span>
                     </a>
                     
                 </div>
@@ -809,13 +788,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/02/01/%E9%80%9A%E8%AE%AF%E5%BD%95%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/">
+                <a href="/2021/02/01/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="通信录管理系统">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="人类简史">
                         
-                        <span class="card-title">通信录管理系统</span>
+                        <span class="card-title">人类简史</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -826,14 +805,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-01
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                    技术
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6/" class="post-category">
+                                    读书
                                 </a>
                             
                             
@@ -843,8 +822,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/C/">
-                        <span class="chip bg-color">C++</span>
+                    <a href="/tags/%E5%8E%86%E5%8F%B2/">
+                        <span class="chip bg-color">历史</span>
                     </a>
                     
                 </div>
